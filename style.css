@@ -27,7 +27,7 @@ p{
     position: relative;
 
     height: 100vh;
-    background-image:linear-gradient( rgba(0,0,0,.3)100%, rgba(0,0,0,0) ), url("img/topBackground.png"); 
+    background-image:linear-gradient( rgba(0,0,0,.3)100%, rgba(0,0,0,0) ), url("img/topBackground.jpg"); 
     background-size: cover;
     background-repeat: no-repeat;
 
