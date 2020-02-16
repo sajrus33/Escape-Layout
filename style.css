@@ -131,11 +131,13 @@ p{
 
 /*                                                         MAIN                                                         */
 .main__wrapper{
+    box-sizing: border-box;
     background-color: white;
 
     min-height: 160px;
 
     width: 100%;
+    padding: 0 5px;
     /* flex container */
     display: flex;
     justify-content: center;
@@ -286,7 +288,7 @@ p{
 }
 .client__text{
     width: 50%;
-
+    padding: 10px;
     background-color: white;
     border: 1px rgba(237,237,237,1) solid;
 
@@ -296,18 +298,6 @@ p{
     justify-content: center;
     align-items: center;
 
-}
-.client__text--first::before{
-    content: "";
-    height: 5%;
-    width: 6%;
-    background-color: black;
-}
-.client__text--second::after{
-    content: "";
-    height: 5%;
-    width: 2%;
-    background-color: black;
 }
 .client__p{
     font-size: .9em;
@@ -326,22 +316,6 @@ p{
 
 
 
-/* 
-  <article class="dev">
-                <section class="dev__wrapper">
-                    <h2 class="dev__h2"></h2>
-                    <p class="dev__p"></p>
-                </section>
-                <img class="dev__img" src="img/user.png" alt="connection symbol, picture">
-            </article>
-            <article class="brand">
-                    <img class="brand__img" src="img/user.png" alt="connection symbol, picture">
-                    <section class="brand__wrapper">
-                        <h2 class="brand__h2"></h2>
-                        <p class="brand__p"></p>
-                    </section>
-            </article>
-*/
 
 @media only screen and (max-width: 1300px) {
     body {
