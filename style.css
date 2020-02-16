@@ -25,12 +25,10 @@ p{
 }
 .header{
     position: relative;
-
     height: 100vh;
     background-image:linear-gradient( rgba(0,0,0,.3)100%, rgba(0,0,0,0) ), url("img/topBackground.jpg"); 
     background-size: cover;
     background-repeat: no-repeat;
-
     color: var(--headerColor);
     white-space: nowrap;
 }
@@ -190,11 +188,11 @@ p{
 }
 /* ARTICLE 1 DEVELOPMENT*/
 .main__article--dev{
-    height: 50vh;
+    min-height: 50vh;
     
 }
 .dev{
-    height: 50vh;
+    min-height: 50vh;
 }
 
  
@@ -204,7 +202,7 @@ p{
 
 /* ARTICLE 2 BRAND */
 .brand{
-    height: 50vh;
+    min-height: 50vh;
 }
 .brand__img{
     width:40%;
@@ -214,7 +212,7 @@ p{
 /* ARTICLE 3 SKILLS */
 
 .skills{
-    height: 75vh;
+    min-height: 75vh;
     /* flex container */
     flex-wrap: wrap;
     justify-content: space-between;
@@ -258,7 +256,7 @@ p{
 
 
 .clients{
-    height: 100vh;
+    min-height: 100vh;
     /* flex container */
     flex-direction: column;
     justify-content: space-around;
@@ -304,14 +302,14 @@ p{
 }
 /* ARTICLE 5 TECHNOLOGYS */
 .technology{
-    height: 10vh;
+    min-height: 10vh;
 }
 .technology__wrapper{
 
 }
 /* ARTICLE 6 TEAM */
 .team{
-    height: 100vh;
+    min-height: 100vh;
 }
 
 
